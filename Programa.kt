@@ -24,9 +24,9 @@ open class Programa {
 
     /**
      * Constructor con todos los parámetros.
-     *  @param titulo el titulo del programa
-     *  @param genero el género del programa
-     *  @param visto el estado de visualización del programa
+     *  @param titulo el titulo del programa.
+     *  @param genero el género del programa.
+     *  @param visto el estado de visualización del programa.
      */
     constructor(titulo: String, genero: Genero, visto: Boolean) {
         this.titulo = titulo
@@ -42,9 +42,7 @@ open class Programa {
         this.titulo = titulo
     }
 
-    /**
-     * Método para marcar en visto un programa
-     */
+    /** Método para marcar en visto un programa. */
     fun marcarVisto() {
         visto = true
     }
