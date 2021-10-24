@@ -1,7 +1,6 @@
 package com.cursosandroidant.tarea4
 
 /**
- *
  *  Clase para modelar programas. Un programa tiene
  *  titulo, genero y estado de visualización.
  */
